@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Creating a Spring Boot Project with Eclipse and Maven
-date:       2017-12-10 12:31:19
+date:       2020-07-06 12:31:19
 summary:    Setting up a basic project with Spring Boot is a cake walk. In this article, we will explore the different options of creating Spring Boot Projects with Maven and Eclipse. 
 categories:  SpringBoot
 permalink:  /creating-spring-boot-project-with-eclipse-and-maven
@@ -151,11 +151,7 @@ The jar dependencies are stored on your machine in a folder called maven local r
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 
@@ -288,7 +284,7 @@ We will add Spring Boot Starter Parent as the parent pom in the pom.xml
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.0.RELEASE</version>
+    <version>2.3.1.RELEASE</version>
     <relativePath /> <!-- lookup parent from repository -->
 </parent>
 
@@ -301,6 +297,7 @@ Let's configure the Java version to use as 1.8
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>1.8</java.version>
+    <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 </properties>
 ```
 

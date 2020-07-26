@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring Boot Exception Handling for RESTful Services Errors
-date:       2017-12-26 12:31:19
+date:       2020-07-03 12:31:19
 summary:    Great REST APIs have Great Exception Handling. You don't want to leave your API consumer hanging not knowing what to do when an error occurs. Let's learn how to implement effective exception handling for a REST API/Service with Spring Boot. You will understand and implement HTTP Error Response statuses based on the type of error.
 categories:  SpringBoot
 permalink:  /spring-boot-exception-handling-for-rest-services
@@ -29,7 +29,7 @@ This guide will help you implement effective exception/error handling for a REST
 
 ## Project Code Structure
 
-Following screenshot shows the structure of the project we will create.
+Following screen shot shows the structure of the project we will create.
 ![Image](/images/SpringBootExceptionHandling-ProjectStructure.png "CRUDServiceWithHibernate") 
 
 A few details:
@@ -130,11 +130,9 @@ Thats a cool error response. It contains all the details that are typically need
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 

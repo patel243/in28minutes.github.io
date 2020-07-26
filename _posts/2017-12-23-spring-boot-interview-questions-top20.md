@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring Boot Interview Questions
-date:       2017-12-23 12:31:19
+date:       2020-07-05 12:31:19
 summary:    Let's take a quick look at some of the important Spring Boot concepts with examples to get ready for a Spring Boot Interview. We will understand all the basics of Spring Boot - Auto Configuration, Starter Parent, a variety of Starter Projects - Web, JPA, Data REST and Test.
 categories:  SpringBoot
 permalink:  /spring-boot-interview-questions
@@ -56,6 +56,13 @@ The problem with Spring and Spring MVC is the amount of configuration that is ne
 Spring Boot solves this problem through a combination of  Auto Configuration and Starter Projects. Spring Boot also provide a few non functional features to make building production ready applications faster. 
 
 For complete answer with code examples refer - [Spring Boot vs Spring vs Spring MVC](http://www.springboottutorial.com/spring-boot-vs-spring-mvc-vs-spring)
+
+
+## Java and Spring Interview Guides
+
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Interview-Guide-200-Questions-Answers.png "Spring Framework Interview Guide - 200+ Questions & Answers")](https://links.in28minutes.com/in28minutes-spring-interview)
+
+[![Image](https://www.springboottutorial.com/images/Course-Java-Interview-Guide-200-Interview-Questions-and-Answers.png "Java Interview Guide : 200+ Interview Questions and Answers")](https://links.in28minutes.com/in28minutes-java-interview)
 
 ### Q : What is Auto Configuration?
 
@@ -192,11 +199,9 @@ spring-boot-maven-plugin provides a few commands which enable you to package the
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 

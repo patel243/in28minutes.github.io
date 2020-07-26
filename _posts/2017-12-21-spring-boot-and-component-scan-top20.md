@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring, Spring Boot and Component Scan
-date:       2017-12-21 12:31:19
+date:       2020-07-05 12:31:19
 summary:    Understand the most important concept in Spring Framework - Component Scan. Let's see how you can configure a Component Scan in Spring and Spring Boot. We will also look at how you can debug problems related to Component Scan.
 categories:  SpringBoot
 permalink:  /spring-boot-and-component-scan
@@ -46,6 +46,8 @@ Once you define a Component Scan for a package, Spring would search the package 
 Defining a Component Scan
 - If you are using Spring Boot, check configuration in Approach 1.
 - If you are doing a JSP/Servlet or a Spring MVC application without using Spring Boot use Approach 2.
+
+
 
 ## Approach 1 : Component Scan in a Spring Boot Project
 
@@ -131,11 +133,9 @@ public class SpringConfiguration {
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 
@@ -189,4 +189,3 @@ You have two options
 - @Component indicates that a class might be a candidate for creating a bean. Its like putting a hand up.
 - @ComponentScan is searching packages for Components. Trying to find out who all put their hands up.
 
-> Congratulations! You are reading an article from a series of 50+ articles on Spring, Spring Boot , Hibernate, Full Stack, Cloud and Microservices. We also have 20+ projects on our Github repository. For the complete series of 50+ articles and code examples, [click here](https://www.springboottutorial.com/tags/#SpringBoot).

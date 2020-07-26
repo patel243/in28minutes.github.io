@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:   Integrating Hibernate and JPA with Spring Boot
-date:       2020-01-02 12:31:19
+title:      Integrating Hibernate and JPA with Spring Boot
+date:       2020-07-07 12:31:19
 summary:    Learn using Spring Boot Starter JPA to connect Spring Boot to H2 (in memory database) using Hibernate/JPA. You will learn the basics of JPA and Hibernate - Entities and Keys. We will create a simple repository extending JPARepository and explore different methods it exposes.
 categories:  SpringBootJPA
 permalink:  /hibernate-jpa-tutorial-with-spring-boot-starter-jpa
@@ -145,11 +145,9 @@ Below is the list of starter projects in pom.xml.
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 
@@ -173,37 +171,33 @@ Extract below shows some code from pom.xml of spring-boot-starter-jpa.
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-aop</artifactId>
-  <version>2.0.0.RELEASE</version>
+  <version>2.3.1.RELEASE</version>
   <scope>compile</scope>
 </dependency>
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-jdbc</artifactId>
-  <version>2.0.0.RELEASE</version>
+  <version>2.3.1.RELEASE</version>
   <scope>compile</scope>
 </dependency>
 <dependency>
   <groupId>org.hibernate</groupId>
   <artifactId>hibernate-core</artifactId>
-  <version>5.2.12.Final</version>
   <scope>compile</scope>
 </dependency>
 <dependency>
   <groupId>javax.transaction</groupId>
   <artifactId>javax.transaction-api</artifactId>
-  <version>1.2</version>
   <scope>compile</scope>
 </dependency>
 <dependency>
   <groupId>org.springframework.data</groupId>
   <artifactId>spring-data-jpa</artifactId>
-  <version>2.0.1.RELEASE</version>
   <scope>compile</scope>
 </dependency>
 <dependency>
   <groupId>org.springframework</groupId>
   <artifactId>spring-aspects</artifactId>
-  <version>5.0.1.RELEASE</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -411,6 +405,8 @@ spring.jpa.properties.hibernate.generate_statistics=true
 logging.level.org.hibernate.stat=debug
 # Show all queries
 spring.jpa.show-sql=true
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.data.jpa.repositories.bootstrap-mode=default
 spring.jpa.properties.hibernate.format_sql=true
 logging.level.org.hibernate.type=trace
 ```

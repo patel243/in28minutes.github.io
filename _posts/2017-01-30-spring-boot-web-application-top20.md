@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Creating a Web Application with Spring Boot with JSP
-date:       2017-02-01 12:31:19
+date:       2020-07-08 12:31:19
 summary:    Setting up a basic web application with Spring Boot is a cake walk. We will create a simple web application using Spring Initializr and add JSP features to it. 
 categories:  SpringBoot
 permalink:  /creating-web-application-with-spring-boot
@@ -157,11 +157,9 @@ spring.mvc.view.suffix=.jsp
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 
@@ -446,3 +444,5 @@ You can run this as a simple java application. When you run this you would see t
 2017-01-30 10:02:04.307  INFO 6070 --- [  restartedMain] c.i.s.web.SpringBootFirstWebApplication  : Started SpringBootFirstWebApplication in 7.204 seconds (JVM running for 9.191)
 
 ```
+
+Complete code is on Github repository : https://github.com/in28minutes/SpringBootWebApplicationStepByStep. You can download Step12.zip and import as a maven project to be able to run it.

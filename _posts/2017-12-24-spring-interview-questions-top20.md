@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Spring Interview Questions
-date:       2017-12-24 12:31:19
+date:       2020-07-04 12:31:19
 summary:    Let's take a quick look at some of the important Spring concepts with examples to get ready for a Spring Interview. We will look at defining beans with Spring (@Component, @Service, etc), auto wiring them (@Autowired), @ComponentScan and understand the basics of Application Context and Bean Factory. We will also look a few important Spring MVC interview questions.
 categories:  SpringFramework
 permalink:  /spring-interview-questions
@@ -64,6 +64,13 @@ Two Options
 @Component and @ComponentScan are for different purposes.
 - @Component indicates that a class might be a candidate for creating a bean. Its like putting a hand up.
 - @ComponentScan is searching packages for Components. Trying to find out who all put their hands up.
+
+
+## Java and Spring Interview Guides
+
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Interview-Guide-200-Questions-Answers.png "Spring Framework Interview Guide - 200+ Questions & Answers")](https://links.in28minutes.com/in28minutes-spring-interview)
+
+[![Image](https://www.springboottutorial.com/images/Course-Java-Interview-Guide-200-Interview-Questions-and-Answers.png "Java Interview Guide : 200+ Interview Questions and Answers")](https://links.in28minutes.com/in28minutes-java-interview)
 
 
 ### Q :  What is the use of an @Bean annotation?
@@ -189,11 +196,9 @@ https://github.com/spring-projects/spring-framework/wiki/What%27s-New-in-the-Spr
 
 ---
 
-***85,000 subscribers*** are learning AWS, Docker, Kubernetes, Spring Boot and Microservices on our ***Youtube Channel***.
-
-
-&nbsp;
-[***SUBSCRIBE*** and Start Learning Now!](https://links.in28minutes.com/in28minute-YT-Subscribe){:target="_blank"}
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
 
 ---
 
@@ -406,7 +411,7 @@ JSP
 
 ### Q :  Where should we place our static (css, js, html) resources in a Spring MVC application?
 
-For the Java script, I would have separate java script files and include them into your jsp.
+For the Java script, I would have separate Java script files and include them into your jsp.
 
 Here's a small discussion where static files should be located:
 - https://stackoverflow.com/questions/7836930/where-do-css-and-javascript-files-go-in-a-maven-web-app-project

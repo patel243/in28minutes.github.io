@@ -75,7 +75,7 @@ Why not leave the "Undifferentiated Heavy Lifting" to the cloud providers?
 
 #### Improved Latency and Availability
 
-Each of the cloud providers have mutliple data centers available in multiple continents and multiple countries.
+Each of the cloud providers have multiple data centers available in multiple continents and multiple countries.
 
 It would be difficult for businesses to set up such wide spread infrastructure. 
 
@@ -96,21 +96,32 @@ For example, if you are using AWS (Amazon Web Services), you have two options
 
 Approach 1 is typically called IAAS - Infrastructure as a Service. You are getting the infrastructure from the cloud provider and deploying the applications the usual way you do. The cloud provider is responsible only for providing the virtual servers. You are responsible for installing OS, OS Upgrades, Installing Runtime, Runtime upgrades and everything that goes along with them.
 
-Different clouds provide differerent IAAS Services. The virtual servers are also called differently in different clouds
+Different clouds provide different IAAS Services. The virtual servers are also called differently in different clouds
 - AWS calls them EC2 (Elastic Compute Cloud)
 - Azure Virtual Machines
 - Google Compute Engines
 
 Approach 2 is called PAAS - Platform as a Service. You are only responsible for your application deployable unit. The cloud provider is responsible for Platform Upgrades, Runtime Upgrades and OS Upgrades.
 
-PAAS Examples are Managed Services provided by different cloud providers. A good examples are the database management sevices provided.
+PAAS Examples are Managed Services provided by different cloud providers. A good examples are the database management services provided.
 - AWS provides RDS - Relational Database Service
 - Azure provides DB for MySQL
 
-Great thing about these managed services is that the cloud provider would take care of most non functional requirments.
+Great thing about these managed services is that the cloud provider would take care of most non functional requirements.
 - Reliability
 - Availability
 - Backups
+
+
+
+---
+
+<a href="https://links.in28minutes.com/aws-architect-associate-certification" ><img src="https://www.springboottutorial.com/images/Course-aws-architect-associate-certification.png" alt="Image" title="AWS Architect Associate Certification"></a>
+<a href="https://links.in28minutes.com/DevOps-SBT"><img src="https://www.springboottutorial.com/images/Course-DevOps.png" alt="Image" title="DevOps Course"></a>
+<a href="https://links.in28minutes.com/in28minutes-Microservices" ><img src="https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png" alt="Image" title="Master Microservices with Spring Boot and Spring Cloud"></a>
+
+---
+
 
 
 ### Platform as a Service in Depth
@@ -175,7 +186,7 @@ This course would be a perfect first step as an introduction to Docker.
 
 You will Learn Docker Architecture and the Fundamentals of Docker - Registry, Repository, Tag, Image, Container and Volumes and also learn the important Docker commands.
 
-You will learn to use Dockerfile to Automate Building of your Docker Image and also use various maven plugins - Dockerfile Spotify Plugin, JIB Plugin and Fabric8 Docker Maven Plugin - to create Docker images. You will also learn to follow the best practices with creating Docker Images - Improve Caching of Docker Images and create Multi Stage Docker Builds.
+You will learn to use `Dockerfile` to Automate Building of your Docker Image and also use various maven plugins - `Dockerfile` Spotify Plugin, JIB Plugin and Fabric8 Docker Maven Plugin - to create Docker images. You will also learn to follow the best practices with creating Docker Images - Improve Caching of Docker Images and create Multi Stage Docker Builds.
 
 ### Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk
 
